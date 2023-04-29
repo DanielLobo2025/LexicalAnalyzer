@@ -1,6 +1,8 @@
 # LexicalAnalyzer
 I built a lexical analyzer for a small programming language called Simple Perl-Like (SPL) using C++. Here are the definitons of the SPL language, they are given in EBNF notation.
 
+Take a look at the README file to see a readable version of the definitions
+
 Prog ::= StmtList
 StmtList ::= Stmt ;{ Stmt; }
 Stmt ::= AssignStme | WriteLnStmt | IfStmt
